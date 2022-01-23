@@ -76,6 +76,7 @@ cv2.waitKey(0)
 
 start = findCrossroads(nul3)
 bfs(nul3, start)
+########
 
 nul3 = cv2.resize(nul3, (w1, h1), interpolation=cv2.INTER_AREA)
 cv2.imshow("haha", nul3)
